@@ -19,7 +19,7 @@ const Navbar = () => {
                             <Link href={"/all-products"}>ALL-Products</Link>
                         </li>
                         <li>
-                            <Link href={"/aboutUs"}>About Us</Link>
+                            <Link href={"/add-product"}>Add-Products</Link>
                         </li>
                     </ul>
                 </div>
@@ -34,14 +34,26 @@ const Navbar = () => {
                         <Link href={"/all-products"}>ALL-Products</Link>
                     </li>
                     <li>
-                        <Link href={"/aboutUs"}>About Us</Link>
+                        <Link href={"/add-product"}>Add-Products</Link>
                     </li>
 
                 </ul>
             </div>
-            <div className="navbar-end">
-                <a className="btn">Login</a>
+            <div className="navbar-end flex gap-4">
+                <Link
+                    href="/register"
+                    className="bg-orange-200 text-orange-900 font-semibold px-5 py-2 rounded-full shadow hover:bg-orange-300 transition"
+                >
+                    Register
+                </Link>
+                <Link
+                    href="/login"
+                    className="bg-orange-200 text-orange-900 font-semibold px-5 py-2 rounded-full shadow hover:bg-orange-300 transition"
+                >
+                    Log In
+                </Link>
             </div>
+
         </div>
     );
 };
