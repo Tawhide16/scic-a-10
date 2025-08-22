@@ -19,7 +19,7 @@ const Navbar = () => {
                             <Link href={"/all-products"}>ALL-Products</Link>
                         </li>
                         <li>
-                            <Link href={"/add-product"}>Add-Products</Link>
+                            <Link href={"/dashboard/add-product"}>Add-Products</Link>
                         </li>
                     </ul>
                 </div>
@@ -34,7 +34,7 @@ const Navbar = () => {
                         <Link href={"/all-products"}>ALL-Products</Link>
                     </li>
                     <li>
-                        <Link href={"/add-product"}>Add-Products</Link>
+                        <Link href={"/dashboard/add-product"}>Add-Products</Link>
                     </li>
 
                 </ul>
